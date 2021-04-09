@@ -1,0 +1,38 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  border-bottom: 1px solid gray;
+  padding: 5px 0;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.name {
+  width: 250px;
+  font-style: italic;
+  margin-right: 20px;
+}
+
+.phoneNumber {
+  font-style: unset;
+}
+
+.phoneNumberLink {
+  text-decoration: none;
+  color: rgb(144, 202, 252);
+  display: flex;
+}
+
+.phoneNumberLink:hover {
+  color: rgb(23, 223, 179);
+}
+
+.btnDelete:hover .icon,
+.btnDelete:focus .icon {
+  fill: rgb(23, 223, 179);
+}

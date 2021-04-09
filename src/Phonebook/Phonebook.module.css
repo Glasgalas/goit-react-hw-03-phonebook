@@ -1,0 +1,14 @@
+.phonebook {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 20px;
+  color: rgb(144, 202, 252);
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  align-items: flex-start;
+}
